@@ -25,7 +25,7 @@
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
-      "field": "Murders by Youth",
+      "field": "Murders",
       "type": "quantitative",
       "scale": {"type": "log"}
     },
