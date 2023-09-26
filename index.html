@@ -10,7 +10,7 @@
   <script>
     const spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Murders by Youth 2000",
+  "title": "Murders Committed by Youth (2000)",
   "width": 800,
   "height": 400,
   "data": {
@@ -67,8 +67,10 @@
           "type": "quantitative",
           "scale": {
             "type": "threshold",
-            "domain": [1, 10, 100],
-            "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+            "domain": [1, 10, 100, 150],
+            "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]
+         //   "domain": [1, 10, 100],
+         //   "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
           }
         },
         "tooltip": [
