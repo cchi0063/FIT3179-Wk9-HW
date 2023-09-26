@@ -14,7 +14,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/data/covid_10_10_2020.csv"
+          "url": "https://github.com/cchi0063/FIT3179-Wk9-HW/blob/5f1228a01620d6119c10628b5bdd6d6fa8ecdb6c/data/murder_by_youth.csv"
         },
         "key": "Country",
         "fields": ["Active"]
