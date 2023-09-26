@@ -17,15 +17,15 @@
           "url": "https://github.com/cchi0063/FIT3179-Wk9-HW/blob/5f1228a01620d6119c10628b5bdd6d6fa8ecdb6c/data/murder_by_youth.csv"
         },
         "key": "Country",
-        "fields": ["Active"]
+        "fields": ["Murders"]
       }
     },
-    {"calculate": "datum.Active + 0.1", "as": "Active Cases"}
+    {"calculate": "datum.Murders + 0.1", "as": "Murders"}
   ],
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
-      "field": "Active Cases",
+      "field": "Murders by Youth",
       "type": "quantitative",
       "scale": {"type": "log"}
     },
