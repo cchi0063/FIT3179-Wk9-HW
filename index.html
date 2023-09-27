@@ -15,7 +15,6 @@
   "height": 400,
   "data": {
     "url": "js/ne_110m_admin_0_countries.topojson",
-    //"url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "projection": {"type": "equalEarth"},
@@ -33,15 +32,13 @@
     {
       "data": {
         "url": "js/oceans.topojson",
-        // "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
-        "format": {"type": "topojson", "feature": "oceans"}
+         "format": {"type": "topojson", "feature": "oceans"}
       },
       "mark": {"type": "geoshape", "fill": "skyblue"}
     },
     {
       "data": {
         "url": "js/WorldMapWithGraticules.topojson",
-        // "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/2_symbol_map/js/WorldMapWithGraticules.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
       },
       "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
@@ -72,8 +69,6 @@
             "type": "threshold",
             "domain": [1, 50, 100, 150],
             "range": ["#fee5d9", "#fcae91", "#fb6a4a", "#de2d26", "#a50f15"]
-         //   "domain": [1, 10, 100],
-         //   "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
           }
         },
         "tooltip": [
